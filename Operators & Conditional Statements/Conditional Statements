@@ -1,0 +1,42 @@
+// CONDITIONAL STATENEMENTS IN JAVASCRIPT
+// if , else , else if
+let age = 45;
+if (age>18) {
+    console.log("You are eligible for gym.");
+}
+if (age<18) {
+    console.log("You are not eligible for gym.");
+}
+
+// if...else
+let num = 7;
+if (num % 2 == 0) {
+    console.log("number "+ num + " is even.");
+}
+else {
+    console.log("number "+ num + " is odd.");
+}
+
+//Note -: In if...else statement, only one block will be executed based on the condition.
+// else cannot be used alone without if.
+
+// else if
+let marks = 80;
+if (marks >= 80) {
+    console.log("First Division Passed");
+}
+else if (marks <= 60) {
+    console.log("Second Division Passed");
+}
+else {
+    console.log("Failed");
+}
+
+//Ternary Operator
+//condition ? true statement : false statement
+let age1 = 25;
+let result = age1 >= 18 ? "adult" : "not adult";
+console.log(result); // adult
+
+// MDN Docs (for html,css and js documentation)
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators
