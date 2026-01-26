@@ -31,3 +31,9 @@ comapny.splice(2, 1, "Motorola"); // removes "OnePlus" and adds "Motorola" at in
 console.log(comapny);
 comapny.push("LG"); // adds "LG" at the end
 console.log(comapny);
+
+// Ques - For a given array of numbers , print square of each value using the forEach loop.
+let square = [2,4,6,8,10]
+square.forEach((val) => {
+    console.log (val * val);
+})
