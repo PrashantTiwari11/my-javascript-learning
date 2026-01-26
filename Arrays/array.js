@@ -73,5 +73,35 @@ console.log(animals); // ["cat", "dog", "tiger", "elephant"]
 let someAnimals = animals.slice(1, 3); // extracts items from index 1 to 2
 console.log(someAnimals); // ["dog", "tiger"]
 
+// forEach loop in Arrays
+// arrowMul.forEach((val) => {
+//     console.log(val);
+// })
+let arr=[1,2,3,4,5];
+arr.forEach((val) =>{
+    console.log(val);
+})
 
+// SOME MORE ARRAY METHODS
+// MAP -: 
+// arr.map(callbackFnx(value , index , array))
 
+let nums = [55,58,99]
+let newArr = nums.map ((val) => {
+    return val * 2 ;
+});
+console.log(newArr);
+
+//Filter Method
+let newArr2 = [3,5,6,8,9,10,25,88]
+let evenArr = arr.filter((val) => {
+    return val%2 == 0;
+})
+console.log (evenArr);
+
+//Reduce Method
+let arr2 = [1,2,3,4];
+const output = arr2.reduce((res , curr) => {
+    return res + curr;
+});
+console.log(output);
