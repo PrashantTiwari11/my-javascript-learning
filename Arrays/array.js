@@ -105,3 +105,27 @@ const output = arr2.reduce((res , curr) => {
     return res + curr;
 });
 console.log(output);
+
+// Practice
+let marks = [55,89,48,89,99,86,78]
+let topper = marks.filter ((val) => {
+    return val > 90;
+})
+console.log(topper);
+
+// practice 2
+let n=prompt("enter a number: ")
+let arrs = [];
+for(let i =1 ; i <= n ; i++ ){
+    arrs[i-1] = i
+}
+console.log(arrs);
+let sum = arr.reduce((res,curr) => {
+    return res + curr;
+})
+console.log(sum);
+
+let fact = arr.reduce((res,curr) => {
+    return res * curr ;
+})
+console.log(fact);
