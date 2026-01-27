@@ -9,3 +9,18 @@ body <--  html --> head
 head --> meta , title , link
 body --> div , script
 
+DOM Manipulation :
+1) Selecting With ID
+document.getElementId("myId");
+
+2) Selecting With ClassName
+document.getElementsByClassName("myClassName");
+Note : It returns HTML collections.
+
+3) Selecting With Tag
+document.getElementsByTagName("p");
+
+<--- QUERY SELECTOR -->
+document.querySelector("id" | "className" | "tagName"); //returns first elements 
+~~~~
+document.querySelectorAll("id" | "className" | "tagName"); //returns all elements
