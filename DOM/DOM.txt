@@ -1,0 +1,11 @@
+Window Object -: 
+It is object's browser (not javascript) and is automatically created by browser.
+
+What is DOM (Dociment Object Model)?
+When a webpage is loaded , the browser creates a DOM of the page.
+Tree Structure -:
+window --> document --> html
+body <--  html --> head
+head --> meta , title , link
+body --> div , script
+
