@@ -1,0 +1,10 @@
+//DOM Practices
+// 1. Create a h2 heading element with text - "Hello JavaScript" . Append "from Apna College students" to this text using JS.
+
+// 2. Create 3 divs with common class name - "box" . Access them & add some unqiue elements of them.
+
+// 3. Create a new button element. Give it a text "click me", background color of red and text color of white .
+// Insert the button as the first element isnide  the body tag
+
+// 4. Create a <p> tag in html , give it a class and some styling
+// Now Create a new class in css and try to apppend this class to the <p> elements .
