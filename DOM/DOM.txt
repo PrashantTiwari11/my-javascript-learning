@@ -23,4 +23,22 @@ document.getElementsByTagName("p");
 <--- QUERY SELECTOR -->
 document.querySelector("id" | "className" | "tagName"); //returns first elements 
 ~~~~
-document.querySelectorAll("id" | "className" | "tagName"); //returns all elements
+document.querySelectorAll("id" | "className" | "tagName");//returns all elements
+
+Attributes -:
+1) getAttribute(attr) // to get the attribute value
+2) setAttribute(attr , val) // to set the attribute value
+
+Style -:
+: node.style
+
+let el = document.createElement("div"); // first create that elements
+~~~~~~
+Insert elements -: 
+: node.append(el) // adds at the end of node (inside)
+: node.prepend(el) // adds at the start of node (inside)
+: node.after(el) // adds after the node (outside)
+: node.before(el) // adds before the node (outside)
+
+Delete Element -:
+: node.remove(el) // remove the node
