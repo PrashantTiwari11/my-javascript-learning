@@ -17,3 +17,8 @@ Syntax :
 node.event = (e) => {
     //handle here
 }
+
+Event Listeners :- 
+: node.addEventListener(event , callback)
+: node.removeEventListener(event , callback)
+Note :- the callback reference should be same to remove 
